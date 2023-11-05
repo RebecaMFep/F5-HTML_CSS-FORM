@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="backgroundForm">
+        <form>
+            <div id="text">
+                <p>Name</p>
+                <input type="text" name="Name" placeholder="Enter your name">
+                <p>Email</p>
+                <input type="text" name="Email" placeholder="Enter your email">
+                <p>Age</p>
+                <input type="text" name="Age" placeholder="Enter your age">
+            </div>
+            <div id="options">
+                <p>Wich best option describes you?</p>
+                <input type="text" name="Wich best option describes you?" placeholder="Student">
+                <select name="option" id="option">Which best option describes you?</select>
+            </div>
+            <div id="radio">
+                <p>Would you recommend this site?</p>
+                <input type="radio" id="yes" name="select" value="yes"/><label for="yes">Yes</label>
+                <input type="radio" id="no" name="select" value="no"/><label for="no">No</label>
+                <input type="radio" id="maybe" name="select" value="maybe"/><label for="maybe">Maybe</label>
+            </div>
+            <div id="checkbox">
+                <p>Languages and Frameworks known</p>
+                <label><input type="checkbox" id="cbox1" value="checkbox-1"/>C</label><br>
+                <label><input type="checkbox" id="cbox2" value="checkbox-2"/>C++</label><br>
+                <label><input type="checkbox" id="cbox3" value="checkbox-3"/>C#</label><br>
+                <label><input type="checkbox" id="cbox4" value="checkbox-4"/>Java</label><br>
+                <label><input type="checkbox" id="cbox5" value="checkbox-5"/>Phyton</label><br>
+                <label><input type="checkbox" id="cbox6" value="checkbox-6"/>JavaScript</label><br>
+                <label><input type="checkbox" id="cbox7" value="checkbox-7"/>React</label><br>
+                <label><input type="checkbox" id="cbox8" value="checkbox-8"/>Angular</label><br>
+                <label><input type="checkbox" id="cbox9" value="checkbox-9"/>Django</label><br>
+                <label><input type="checkbox" id="cbox10" value="checkbox-10"/>Spring</label>
+            </div>
+            <div id="button">
+                <input type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
