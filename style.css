@@ -1,12 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-
-}
-
 body {
-    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
 }
 
@@ -27,9 +23,13 @@ form {
    padding: 30px 30px 20px 20px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 15px;  
+   text-align: center;
 }
 
-#text {
+form text {
+    display: flex;
+    
+    
 
 }
 
